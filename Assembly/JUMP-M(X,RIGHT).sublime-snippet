@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[JUMP M(${1:X}, 20:39)]]></content>
+    <tabTrigger>JUMPR</tabTrigger>
+    <scope>source.ias.assembly</scope>
+    <description>PC := X (right)</description>
+</snippet>

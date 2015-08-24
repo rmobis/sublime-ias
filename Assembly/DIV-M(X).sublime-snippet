@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[DIV M(${1:X})]]></content>
+    <tabTrigger>DIV</tabTrigger>
+    <scope>source.ias.assembly</scope>
+    <description>MQ := AC / Mem[X]</description>
+</snippet>

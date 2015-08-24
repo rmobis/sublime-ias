@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[0E ${1:XXX}]]></content>
+    <tabTrigger>JUMPR</tabTrigger>
+    <scope>source.ias.machine</scope>
+    <description>PC := X (right)</description>
+</snippet>

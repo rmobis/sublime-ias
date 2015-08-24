@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[12 ${1:XXX}]]></content>
+    <tabTrigger>STOROPL</tabTrigger>
+    <scope>source.ias.machine</scope>
+    <description>Mem[X](08:19) := AC(28:39)</description>
+</snippet>

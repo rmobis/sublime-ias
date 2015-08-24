@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[STOR M(${1:X})]]></content>
+    <tabTrigger>STOR</tabTrigger>
+    <scope>source.ias.assembly</scope>
+    <description>Mem[X] := AC</description>
+</snippet>

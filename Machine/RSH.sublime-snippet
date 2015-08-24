@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[15 000]]></content>
+    <tabTrigger>RSH</tabTrigger>
+    <scope>source.ias.machine</scope>
+    <description><![CDATA[AC := AC >> 1 (=) AC := AC / 2]]></description>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[01 ${1:XXX}]]></content>
+    <tabTrigger>LOAD</tabTrigger>
+    <scope>source.ias.machine</scope>
+    <description>AC := Mem[X]</description>
+</snippet>

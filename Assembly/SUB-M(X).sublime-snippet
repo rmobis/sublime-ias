@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[SUB M(${1:X})]]></content>
+    <tabTrigger>SUB</tabTrigger>
+    <scope>source.ias.assembly</scope>
+    <description>AC := AC - Mem[X]</description>
+</snippet>

@@ -1,0 +1,41 @@
+%YAML 1.2
+---
+name: IAS (Assembly)
+scope: source.ias.assembly
+file_extensions: [ias]
+
+variables:
+  addr: '[0-3]\h{2}'
+contexts:
+  main:
+    - match: "#"
+      push:
+        - meta_scope: comment.line.ias
+        - match: \n
+          pop: true
+    - match: \b(ADD|DIV|JUMP\+?|LOAD|LSH|MUL|RSH|STOR|SUB)\s
+      scope: keyword.control.ias
+    - match: \b\h{10}\b
+      scope: entity.name.function.ias
+    - match: ^{{addr}}\b
+      scope: constant.numeric.ias
+    - match: \bMQ\b
+      scope: storage.ias
+    - match: \b(\-?\|?M)(\()\b
+      push: operator
+      captures:
+        '1': storage.ias
+        '2': punctuation.separator.ias
+
+  operator:
+    - match: \b{{addr}}
+      scope: constant.numeric.ias
+    - match: \b(\d{1,2})(\:)(\d{2})\b
+      captures:
+        '1': constant.numeric.ias
+        '2': punctuation.separator.ias
+        '3': constant.numeric.ias
+    - match: ','
+      scope: punctuation.separator.ias
+    - match: \)
+      pop: true

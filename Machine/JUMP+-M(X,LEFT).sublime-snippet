@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[0F ${1:XXX}]]></content>
+    <tabTrigger>JUMPPL</tabTrigger>
+    <scope>source.ias.machine</scope>
+    <description>if AC ≥ 0: PC := X (left)</description>
+</snippet>

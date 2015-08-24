@@ -1,0 +1,27 @@
+%YAML 1.2
+---
+name: IAS (Machine)
+scope: source.ias.machine
+file_extensions: [hex]
+
+variables:
+  addr: '[0-3]\h{2}'
+  instr: '01|02|03|05|06|07|08|09|0A|0B|0C|0D|0E|0F|10|12|13|14|15|21'
+
+contexts:
+  main:
+    - match: "#"
+      push:
+        - meta_scope: comment.line.ias
+        - match: \n
+          pop: true
+    - match: \b({{instr}})\s?({{addr}})\b
+      captures:
+        '1': keyword.control.ias
+        '2': storage.ias
+        '3': keyword.control.ias
+        '4': storage.ias
+    - match: \b\h{10}\b
+      scope: entity.name.function.ias
+    - match: ^{{addr}}\b
+      scope: constant.numeric.ias

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[0A 000]]></content>
+    <tabTrigger>LOADMQ</tabTrigger>
+    <scope>source.ias.machine</scope>
+    <description>AC := MQ</description>
+</snippet>
