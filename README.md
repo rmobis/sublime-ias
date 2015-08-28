@@ -1,5 +1,7 @@
-Sublime IAS
-===========
+> :warning: **This package requires Sublime Text Build 3092 or later. This means that, for now, you need to be using the [dev channel][4] which requires a license.**
+
+IAS Package for Sublime Text 3
+==============================
 
 Sublime IAS is a package to ease the development of code destined to be ran on the [IAS architecture][1] (most likely using a simulator). It includes snippets and syntax highlighting for both assembly and machine code.
 
@@ -57,3 +59,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 [1]: https://en.wikipedia.org/wiki/IAS_machine
 [2]: https://packagecontrol.io/
 [3]: http://semver.org
+[4]: http://www.sublimetext.com/3dev
