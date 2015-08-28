@@ -1,9 +1,18 @@
 Sublime IAS
 ===========
 
-Sublime IAS is a package to ease the development of code destined to be ran on the [IAS architecture](https://en.wikipedia.org/wiki/IAS_machine) (most likely using a simulator). It includes snippets and syntax highlighting for both assembly and machine code.
+Sublime IAS is a package to ease the development of code destined to be ran on the [IAS architecture][1] (most likely using a simulator). It includes snippets and syntax highlighting for both assembly and machine code.
 
 This started mostly because I was taking a course on assembly language and this was the architecture of choice for the beginning of it.
+
+
+
+Installing
+----------
+
+1. Make sure you already have [Package Control][2] installed
+2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `Command+Shift+P` on OS X)
+3. Select *IAS* and press `Enter`
 
 
 
@@ -29,7 +38,7 @@ And constructed with the following guidelines:
 * New additions without breaking backward compatibility bumps the minor (and resets the patch)
 * Bug fixes and misc changes bumps the patch
 
-For more information on SemVer, please visit [http://semver.org](http://semver.org).
+For more information on SemVer, please visit [http://semver.org][3].
 
 
 
@@ -44,3 +53,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+[1]: https://en.wikipedia.org/wiki/IAS_machine
+[2]: http://wbond.net/sublime_packages/package_control/
+[3]: http://semver.org
