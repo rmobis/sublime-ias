@@ -9,6 +9,13 @@ This started mostly because I was taking a course on assembly language and this 
 
 
 
+Example
+-------
+
+<p align="center"><img alt="Example" src="http://i.imgur.com/MqhbN7C.png"></p>
+
+
+
 Installing
 ----------
 
