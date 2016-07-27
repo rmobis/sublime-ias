@@ -1,5 +1,3 @@
-> :warning: **This package requires Sublime Text Build 3092 or later. This means that, for now, you need to be using the [dev channel][4] which requires a license.**
-
 IAS Package for Sublime Text 3
 ==============================
 
